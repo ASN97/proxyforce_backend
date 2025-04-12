@@ -1,4 +1,5 @@
 {
+
     "e3790a48-9ea6-4735-8d35-432cc67f1870": {
         "project_name": "SaaS HR Dashboard",
         "description": "A web-based HR dashboard to manage employee records, leave tracking, and performance reviews.",
@@ -45,34 +46,6 @@
         "current_stage": "Initial",
         "additional_info": "Needs Slack integration and export-to-Excel functionality."
     },
-    "74cbc844-80ce-43a6-a215-ac75831d6ea3": {
-        "project_name": "dkabdka",
-        "description": "sasdabdkabsdk",
-        "team_members": [
-            {
-                "name": "Aroma",
-                "skills": [
-                    "Python"
-                ],
-                "email": "A@umd.edu",
-                "working_hours_per_week": 20,
-                "hourly_wage": 20.0
-            }
-        ],
-        "stakeholders": [
-            "Meta (Senior Data Scientist)"
-        ],
-        "start_date": "1997-02-01",
-        "deadline": "0008-02-02",
-        "buffer_days": 20,
-        "budget": 20000.0,
-        "budget_used": 0.0,
-        "tech_stack": [
-            "React"
-        ],
-        "current_stage": "initial",
-        "additional_info": "kjbckdbckab. kjakbaksbf"
-    },
     "be66c9a7-e8a0-4f9c-8760-8b139611ca4b": {
         "project_name": "dkabdka",
         "description": "sasdabdkabsdk",
@@ -102,118 +75,6 @@
         "additional_info": "kjbckdbckab. kjakbaksbf"
     },
     "44f0915f-8f6e-44cc-b283-92fe0648efdd": {
-        "project_name": "temp",
-        "description": "sdnasjkn",
-        "team_members": [
-            {
-                "name": "Aromal Nair",
-                "skills": [
-                    "Pythin"
-                ],
-                "email": "aromal97@umd.edu",
-                "working_hours_per_week": 20,
-                "hourly_wage": 20.0
-            }
-        ],
-        "stakeholders": [
-            "Meta (Developer)"
-        ],
-        "start_date": "1997-01-01",
-        "deadline": "1998-02-02",
-        "buffer_days": 20,
-        "budget": 2000.0,
-        "budget_used": 0.0,
-        "tech_stack": [
-            "React"
-        ],
-        "current_stage": "initial",
-        "additional_info": "kkafdkha. kfhsdajkhf"
-    },
-    "20543eac-abe6-4d9d-aa88-9eae5a570d45": {
-        "project_name": "temp",
-        "description": "sdnasjkn",
-        "team_members": [
-            {
-                "name": "Aromal Nair",
-                "skills": [
-                    "Pythin"
-                ],
-                "email": "aromal97@umd.edu",
-                "working_hours_per_week": 20,
-                "hourly_wage": 20.0
-            }
-        ],
-        "stakeholders": [
-            "Meta (Developer)"
-        ],
-        "start_date": "1997-01-01",
-        "deadline": "1998-02-02",
-        "buffer_days": 20,
-        "budget": 2000.0,
-        "budget_used": 0.0,
-        "tech_stack": [
-            "React"
-        ],
-        "current_stage": "initial",
-        "additional_info": "kkafdkha. kfhsdajkhf"
-    },
-    "916be812-5070-4538-b68e-9625f03ad869": {
-        "project_name": "temp",
-        "description": "sdnasjkn",
-        "team_members": [
-            {
-                "name": "Aromal Nair",
-                "skills": [
-                    "Pythin"
-                ],
-                "email": "aromal97@umd.edu",
-                "working_hours_per_week": 20,
-                "hourly_wage": 20.0
-            }
-        ],
-        "stakeholders": [
-            "Meta (Developer)"
-        ],
-        "start_date": "1997-01-01",
-        "deadline": "1998-02-02",
-        "buffer_days": 20,
-        "budget": 2000.0,
-        "budget_used": 0.0,
-        "tech_stack": [
-            "React"
-        ],
-        "current_stage": "initial",
-        "additional_info": "kkafdkha. kfhsdajkhf"
-    },
-    "003efb0b-01f6-4c75-a46c-f3dcdb1819dc": {
-        "project_name": "temp",
-        "description": "sdnasjkn",
-        "team_members": [
-            {
-                "name": "Aromal Nair",
-                "skills": [
-                    "Pythin"
-                ],
-                "email": "aromal97@umd.edu",
-                "working_hours_per_week": 20,
-                "hourly_wage": 20.0
-            }
-        ],
-        "stakeholders": [
-            "Meta (Developer)"
-        ],
-        "start_date": "1997-01-01",
-        "deadline": "1998-02-02",
-        "buffer_days": 20,
-        "budget": 2000.0,
-        "budget_used": 0.0,
-        "tech_stack": [
-            "React"
-        ],
-        "current_stage": "initial",
-        "additional_info": "kkafdkha. kfhsdajkhf"
-    },
-    "26e98317-ead1-4451-984c-bff06efa9e50": {
         "project_name": "temp",
         "description": "sdnasjkn",
         "team_members": [
