@@ -21,6 +21,7 @@ async def create_project(project_data: ProjectCreateRequest):
 
 @router.get("/all")
 async def get_all_projects():
+    projects = load_projects()
     return {
         "projects": projects_db
     }

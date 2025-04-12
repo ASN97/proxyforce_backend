@@ -9,6 +9,8 @@ def load_projects():
     with open(PROJECTS_FILE, "r") as f:
         return json.load(f)
 
+
+
 def save_projects(projects_data):
     with open(PROJECTS_FILE, "w") as f:
         json.dump(projects_data, f, indent=4)

@@ -1,31 +1,4 @@
 {
-    "2d27e7d4-2da4-4f1f-8562-ff09b3237264": {
-        "project_name": "string",
-        "description": "string",
-        "team_members": [
-            {
-                "name": "string",
-                "skills": [
-                    "string"
-                ],
-                "email": "string",
-                "working_hours_per_week": 0,
-                "hourly_wage": 0.0
-            }
-        ],
-        "stakeholders": [
-            "string"
-        ],
-        "deadline": "string",
-        "buffer_days": 0,
-        "budget": 0.0,
-        "budget_used": 0.0,
-        "tech_stack": [
-            "string"
-        ],
-        "current_stage": "string",
-        "additional_info": ""
-    },
     "e3790a48-9ea6-4735-8d35-432cc67f1870": {
         "project_name": "SaaS HR Dashboard",
         "description": "A web-based HR dashboard to manage employee records, leave tracking, and performance reviews.",
