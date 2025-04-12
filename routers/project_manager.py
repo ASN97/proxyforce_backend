@@ -51,7 +51,7 @@ async def initialize_project(data: ProjectInitRequest):
         ]
     }
 
-@router.post("/create")
+@router.post("/create-project")
 async def create_project(project_data: ProjectCreateRequest):
     project_id = str(uuid4())
 
@@ -63,6 +63,7 @@ async def create_project(project_data: ProjectCreateRequest):
     save_projects(projects_db)
 
     return {
+        "status": "ok",
         "message": "Project created and saved successfully!",
         "project_id": project_id,
         "data": projects_db[project_id]
