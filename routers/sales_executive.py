@@ -1,7 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
-from utils.openai_helper import generate_response
-
+from utils.openai_helper import call_openai
 router = APIRouter()
 
 class Prompt(BaseModel):
