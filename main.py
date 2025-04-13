@@ -215,3 +215,48 @@ async def generate_sales_pitch(request: SalesPitchRequest):
         return SalesPitchResponse(salesPitch=sales_pitch)
     except Exception as e:
         return SalesPitchResponse(salesPitch=f"Error generating sales pitch: {str(e)}")
+
+
+# Define the request body
+class SalesEmailRequest(BaseModel):
+    productDescription: str
+    targetClient: str
+
+# Define the response format
+class SalesEmailResponse(BaseModel):
+    emailSubject: str
+    emailContent: str
+
+# Endpoint to generate the email
+@app.post("/api/generate-sales-email", response_model=SalesEmailResponse)
+async def generate_sales_email(request: SalesEmailRequest):
+    product_description = request.productDescription
+    target_client = request.targetClient
+    
+    # Construct the prompt to send to GPT
+    prompt = f"""
+    You are a sales expert. Generate a sales email for a client based on the following details:
+    
+    Product Description: {product_description}
+    Target Client: {target_client}
+    
+    The email should be formal and professional, with a catchy subject line and engaging content and of 100 words.
+    """
+    
+    try:
+        # Call OpenAI API to generate the email
+        response = openai.Completion.create(
+            model="gpt-3.5-turbo",
+            prompt=prompt,
+            max_tokens=200,
+            temperature=0.7,
+        )
+        email_content = response.choices[0].text.strip()
+
+        # Construct a subject line
+        email_subject = f"Introducing {product_description.split()[0]} to {target_client} - A Perfect Fit"
+
+        return SalesEmailResponse(emailSubject=email_subject, emailContent=email_content)
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail="Error generating sales email")
