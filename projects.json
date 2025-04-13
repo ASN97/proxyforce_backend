@@ -38,7 +38,9 @@
       "additional_info": {
         "objectives": "Develop working AI MVP",
         "successCriteria": "Functioning demo + pitch"
-      }
+      },
+      "chat_history": [
+      ]
     },
     "p2": {
       "name": "Marketing Dashboard",
@@ -90,7 +92,21 @@
       "additional_info": {
         "objectives": "Integrate all major devices",
         "successCriteria": "Smooth voice control"
-      }
+      },
+      "chat_history": [
+        {
+          "id": "3219077e-123f-45e9-82c4-d103f60b072e",
+          "content": "hi",
+          "sender": "user",
+          "timestamp": "2025-04-13T04:40:38.109946"
+        },
+        {
+          "id": "73468a82-eb4e-468e-99c1-16c1d61840f2",
+          "content": "Got it. Updating plan.",
+          "sender": "ai",
+          "timestamp": "2025-04-13T04:40:38.109976"
+        }
+      ]
     },
     "p4": {
       "name": "Add Trial",
