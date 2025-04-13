@@ -51,6 +51,14 @@ async def initialize_project(data: ProjectInitRequest):
         ]
     }
 
+
+
+
+
+
+
+
+
 @router.post("/create-project")
 async def create_project(project_data: ProjectCreateRequest):
     project_id = str(uuid4())
@@ -261,3 +269,7 @@ async def generate_email_summary(payload: dict = Body(...)):
     """
 
     return await call_openai(prompt)
+
+
+
+
