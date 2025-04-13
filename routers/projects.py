@@ -6,7 +6,6 @@ from utils.file_storage import load_projects, save_projects
 router = APIRouter(prefix="/projects", tags=["Projects"])
 
 # Load existing projects from file
-projects_db = load_projects()
 
 @router.post("/create")
 async def create_project(project_data: ProjectCreateRequest):
@@ -21,13 +20,14 @@ async def create_project(project_data: ProjectCreateRequest):
 
 @router.get("/all")
 async def get_all_projects():
-    projects = load_projects()
+    projects_db = load_projects()
     return {
         "projects": projects_db
     }
 
 @router.get("/{project_id}")
 async def get_project_by_id(project_id: str):
+    projects_db = load_projects()
     project = projects_db.get(project_id)
     if not project:
         return {"error": "Project not found"}
